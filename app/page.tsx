@@ -16,7 +16,7 @@ export default function Home() {
 
   <button className="hover:text-yellow-300">PYQs</button>
 
-  <button className="hover:text-yellow-300">Login</button>
+  
 </div>
       </nav>
 
