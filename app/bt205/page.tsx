@@ -11,7 +11,7 @@ export default function BT205Page() {
         <div className="bg-white dark:bg-gray-800 p-5 rounded-xl shadow flex justify-between">
           <span>📄 Unit 1 Notes</span>
           <a
-            href="/pdf/bt205/Unit1_Handwritten_Notes.pdf"
+            href="/pdf/bt205-unit1.pdf"
             download
             className="bg-red-700 text-white px-4 py-2 rounded hover:bg-red-800"
           >
@@ -22,7 +22,7 @@ export default function BT205Page() {
         <div className="bg-white dark:bg-gray-800 p-5 rounded-xl shadow flex justify-between">
           <span>📄 Unit 2 Notes</span>
           <a
-            href="/pdf/bt205/Unit2_Handwritten_Notes.pdf"
+            href="/pdf/bt205-unit2.pdf"
             download
             className="bg-red-700 text-white px-4 py-2 rounded hover:bg-red-800"
           >
@@ -33,7 +33,7 @@ export default function BT205Page() {
         <div className="bg-white dark:bg-gray-800 p-5 rounded-xl shadow flex justify-between">
           <span>📄 Unit 3 Notes</span>
           <a
-            href="/pdf/bt205/Unit3_Handwritten_Notes.pdf"
+            href="/pdf/bt205-unit3.pdf"
             download
             className="bg-red-700 text-white px-4 py-2 rounded hover:bg-red-800"
           >
@@ -44,7 +44,7 @@ export default function BT205Page() {
         <div className="bg-white dark:bg-gray-800 p-5 rounded-xl shadow flex justify-between">
           <span>📄 Unit 4 Notes</span>
           <a
-            href="/pdf/bt205/Unit4_Handwritten_Notes.pdf"
+            href="/pdf/bt205-unit4.pdf"
             download
             className="bg-red-700 text-white px-4 py-2 rounded hover:bg-red-800"
           >
@@ -55,7 +55,7 @@ export default function BT205Page() {
         <div className="bg-white dark:bg-gray-800 p-5 rounded-xl shadow flex justify-between">
           <span>📄 Unit 5 Notes</span>
           <a
-            href="/pdf/bt205/Unit5_Handwritten_Notes.pdf"
+            href="/pdf/bt205-unit5.pdf"
             download
             className="bg-red-700 text-white px-4 py-2 rounded hover:bg-red-800"
           >
