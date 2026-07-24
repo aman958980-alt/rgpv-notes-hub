@@ -11,15 +11,20 @@ const router = useRouter();
 const handleSearch = () => {
   const q = search.toLowerCase().trim();
 
-  if (q.includes("bt101") || q.includes("chemistry"))
-    router.push("/bt101");
+  if (
+  q.includes("bt101") ||
+  q.includes("chemistry") ||
+  q.includes("engineering chemistry")
+)
+  router.push("/bt101");
 
-  else if (
-    q.includes("bt102") ||
-    q.includes("math") ||
-    q.includes("mathematics")
-  )
-    router.push("/bt102");
+else if (
+  q.includes("bt102") ||
+  q.includes("math") ||
+  q.includes("mathematics") ||
+  q.includes("engineering mathematics")
+)
+  router.push("/bt102");
 
   else if (
     q.includes("bt103") ||
@@ -72,8 +77,8 @@ const handleSearch = () => {
   else alert("Subject not found!");
 };
 const subjects = [
-  { name: "BT-101 Engineering Mathematics-I", path: "/bt101" },
-  { name: "BT-102 Mathematics-I", path: "/bt102" },
+  { name: "BT-101 Engineering Chemistry", path: "/bt101" },
+  { name: "BT-102 Engineering Mathematics-I", path: "/bt102" },
   { name: "BT-103 English for Communication", path: "/bt103" },
   { name: "BT-104 Basic Electrical & Electronics Engineering", path: "/bt104" },
   { name: "BT-105 Engineering Graphics", path: "/bt105" },
@@ -182,11 +187,11 @@ const filteredSubjects = subjects.filter((subject) =>
 
   <span>
   <Link href="/bt101">
-    <strong className="text-blue-700 hover:underline cursor-pointer">
-      BT-101
-    </strong>
-  </Link>
-  {" "} - Engineering Mathematics-I
+  <strong className="text-blue-700 hover:underline cursor-pointer">
+    BT-101
+  </strong>
+</Link>{" "}
+- Engineering Chemistry
 </span>
   <button className="bg-blue-700 text-white px-3 py-1 rounded-lg hover:bg-blue-800">
     Download
@@ -201,7 +206,7 @@ const filteredSubjects = subjects.filter((subject) =>
     BT-102
   </strong>
 </Link>{" "}
-- Mathematics-I
+- Engineering Mathematics-I
 
   <button className="bg-blue-700 text-white px-3 py-1 rounded-lg hover:bg-blue-800">
     📥 Download
