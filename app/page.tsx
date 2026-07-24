@@ -355,15 +355,6 @@ const filteredSubjects = subjects.filter((subject) =>
       </button>
     </li>
 
-    <li className="bg-yellow-100 dark:bg-gray-700 p-3 rounded-lg flex justify-between items-center hover:bg-yellow-200">
-      <span>
-        <strong>BT-206</strong> - Language Lab & Seminars
-      </span>
-      <button className="bg-yellow-600 text-white px-3 py-1 rounded-lg">
-        📥 Download
-      </button>
-    </li>
-
   </ul>
 
 </div>
